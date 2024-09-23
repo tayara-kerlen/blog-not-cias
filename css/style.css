@@ -21,9 +21,68 @@
 
 html {
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 body {
     background-color: var(--cor-02);
     color: var(--cor-05);
+}
+
+header {
+    background-color: var(--cor-05);
+    color: var(--cor-01);
+
+    /* position: fixed; */
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    padding: 1.2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    color: var(--cor-principal);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.1rem;
+    transition: 0.5s;
+
+}
+
+nav a:hover {
+    color: var(--cor-principal);
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+footer {
+    background-color: var(--cor-05);
+    color: var(--cor-02);
+    padding: 1rem 5rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.6;
 }
