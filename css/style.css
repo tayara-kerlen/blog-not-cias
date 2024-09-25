@@ -84,11 +84,11 @@ main {
 article {
     background-color: var(--cor-01);
     height: 16rem;
-    margin: 0 5rem;
+    margin: 1rem 5rem;
     padding: 1rem;
     border-radius: 0.6rem;
     transition: 0.5s;
-    /* overflow: hidden */
+    overflow: hidden;
 
     display: grid;
     grid-template-columns: 16rem auto;
