@@ -53,6 +53,10 @@ header span {
     display: none;
 }
 
+.menu-responsivo i {
+    font-size: 3rem;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -148,9 +152,6 @@ footer {
     
 }
 
-
-/* ===== Media Queries ===== */
-
 /* ===== Media Queries ===== */
 
 /* XS Extra Small - celular retrato (portrait) */
@@ -191,8 +192,7 @@ footer {
 
     /* TESTE */
     /* header {
-        background-color: #ff4df9;
-    } */
+        background-color: #ff4df9;*/
 }
 
 /* SM Small - celular paisagem (landscape) */
@@ -233,8 +233,7 @@ footer {
 
     /* TESTE */
     /* header {
-        background-color: #2139a7;
-    } */
+        background-color: #2139a7; */
 }
 
 /* Tablet */
@@ -250,8 +249,7 @@ footer {
 
     /* TESTE */
     /* header {
-        background-color: #b805b2;
-    } */
+        background-color: #b805b2; */
 }
 
 /* Notebook */
@@ -300,8 +298,7 @@ footer {
 /* Desktop */
 @media (min-width: 1200px) {
 
-    /* TESTE */
     /* header {
         background-color: #46554d;
-    } */
+    }  */
 }
