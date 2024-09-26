@@ -151,20 +151,22 @@ footer {
 
 /* ===== Media Queries ===== */
 
-/*  XS Extra Small - celular retrato (portrait) */
+/* ===== Media Queries ===== */
+
+/* XS Extra Small - celular retrato (portrait) */
 @media (max-width: 576px) {
     header {
-        padding:  1rem 2rem;
+        padding: 1rem 2rem;
     }
-
+    
     .menu-responsivo {
-        display:block
+        display: block;
     }
 
     .menu {
         display: none;
     }
-    
+
     article {
         height: auto;
         margin: 1rem;
@@ -184,11 +186,16 @@ footer {
     .texto {
         max-height: 10rem;
         overflow: hidden;
-        border: solid 1px red;   
     }
+
+
+    /* TESTE */
+    /* header {
+        background-color: #ff4df9;
+    } */
 }
 
-    /* SM Small - celular paisagem (landscape) */
+/* SM Small - celular paisagem (landscape) */
 @media (min-width: 576px) {
     header {
         padding: 1rem 2rem;
@@ -225,9 +232,9 @@ footer {
 
 
     /* TESTE */
-    header {
+    /* header {
         background-color: #2139a7;
-    }
+    } */
 }
 
 /* Tablet */
@@ -239,11 +246,62 @@ footer {
     article {
         margin: 3rem;
     }
-    
 
 
     /* TESTE */
-    header {
+    /* header {
         background-color: #b805b2;
+    } */
+}
+
+/* Notebook */
+@media (min-width: 992px) {
+    header {
+        padding: 1rem 5rem;
     }
+    
+    .menu-responsivo {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    article {
+        height: 16rem;
+        margin: 1rem 5rem;
+    
+        display: grid;
+        grid-template-columns: 16rem auto;
+    }
+
+    .foto {
+        overflow: hidden;
+        margin-right: 1rem;
+    }
+    
+    .foto img {
+        height: 100%;
+    }
+
+    .texto {
+        max-height: 3rem;
+        overflow: hidden;
+    }
+
+
+    /* TESTE */
+    /* header {
+        background-color: #05b856;
+    } */
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+    /* TESTE */
+    /* header {
+        background-color: #46554d;
+    } */
 }
