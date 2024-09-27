@@ -49,12 +49,56 @@ header span {
     color: var(--cor-principal);
 }
 
+/* ===== Menu Responsivo (dropdown) ===== */
 .menu-responsivo {
     display: none;
 }
 
 .menu-responsivo i {
     font-size: 3rem;
+}
+
+/* .menu-responsivo input */
+.menu-responsivo input {
+    display: none;
+}
+
+.menu-button {
+    cursor: pointer;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--cor-01);
+    min-width: 10rem;
+    box-shadow: 0 0 0.5rem 0.1rem var(--cor-04);
+    z-index: 10;
+    text-align: right;
+}
+
+.menu-content ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-content a {
+    color: var(--cor-03);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    display: block;
+}
+
+.menu-content a:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-01);
+}
+
+#menu-toggle:checked + .menu-button + .menu-content {
+    display: block;
 }
 
 nav ul {
